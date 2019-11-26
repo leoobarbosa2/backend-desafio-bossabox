@@ -46,13 +46,13 @@ O Heroku foi o a plataforma utilizada para subir o projeto em nuvem
 </p>
 
 <p align="center">
-<img height="200" width="500" src="https://user-images.githubusercontent.com/54908803/69639407-382fe800-103b-11ea-946e-154e21028ba5.png" />
+<img height="180" width="400" src="https://user-images.githubusercontent.com/54908803/69639407-382fe800-103b-11ea-946e-154e21028ba5.png" />
 </p>
 <hr>
 
 
 
-Exemplo do resultado da rota **GET** /tools
+Exemplo do resultado da rota GET /tools
 
 ```
   {
