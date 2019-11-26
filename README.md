@@ -56,7 +56,7 @@ do Yup(https://github.com/jquense/yup) que se baseia na validação em schemas
 <p align="center">API online!<p>
 
 <p align="center">
-A API encontra-se online e disponível através do seguinte endereço:<br> https://toolstoremember.herokuapp.com/tools?tag=node
+A API encontra-se online e disponível através do seguinte endereço:<br> https://toolstoremember.herokuapp.com/tools (Rota get)
 </p>
 
 <p align="center">
