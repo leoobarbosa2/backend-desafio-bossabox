@@ -85,6 +85,6 @@ module.exports = {
 
     await Tool.findByIdAndDelete(id);
 
-    return res.send();
+    return res.status(204).send();
   },
 };
