@@ -16,18 +16,23 @@ como query params na url da requisição como por exemplo /tools?tag=node`</p>
 <p align="center">
 <img height="200" width="300" src="https://user-images.githubusercontent.com/54908803/69638627-d0c56880-1039-11ea-8cfe-9c88ca6f48b7.jpg" />
 </>
+  
 <hr>
 
 <p align="center">
   A padronização do código foi feita utilizando ESLINT + PRETTIER com padronização a partir das regras pré-definidas pela AirBnb
+<p>
   
+<p align="center">
   o ESLINT é uma ferramente que nos ajuda a identificar erros de padronização no código e o Prettier nos ajuda a corrigir eles de maneira simples em
   conjunto com algumas configurações com o editor de texto.
-<p>
+</p>
+
 
 <p align="center">
 <img align="center" height="200" width="400" src="https://user-images.githubusercontent.com/54908803/69638933-6cef6f80-103a-11ea-8654-da50e2b081fa.png" />
 </p>
+
 <hr>
 
 <p align="center">
@@ -41,6 +46,7 @@ do Yup(https://github.com/jquense/yup) que se baseia na validação em schemas
 <p align="center">
 A API encontra-se online e disponível através do seguinte endereço:<br> https://toolstoremember.herokuapp.com/tools?tag=node
 </p>
+
 <p align="center">
 O Heroku foi o a plataforma utilizada para subir o projeto em nuvem
 </p>
@@ -48,6 +54,7 @@ O Heroku foi o a plataforma utilizada para subir o projeto em nuvem
 <p align="center">
 <img height="180" width="400" src="https://user-images.githubusercontent.com/54908803/69639407-382fe800-103b-11ea-946e-154e21028ba5.png" />
 </p>
+
 <hr>
 
 
