@@ -2,10 +2,22 @@
 "Very Useful Tools to Remember"
 </h1>
 
-
 <p align="center">O desafio proposto pela BossaBox(https://bossabox.com/), foi de realizar a construção de uma API e Banco de Dados para a aplicação
 Very Useful Tools to Remeber que possui as funcionalides de criação, edição, exclusão e filtro de ferramentas a partir de suas tags passadas
 como query params na url da requisição como por exemplo /tools?tag=node`</p>
+
+<h1 align="center">Instruções</p>
+<p align="center">
+  Em caso de download do projeto você precisará baixar as dependências(node_modules): <br>
+  Necessário: Yarn ou Npm instalados
+  
+  ```
+  
+  npm install
+  yarn
+  
+  ```
+</p>
 
 <h2 align="center"> Ferramentas </h2>
 
