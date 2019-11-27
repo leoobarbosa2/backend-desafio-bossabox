@@ -26,7 +26,7 @@ module.exports = {
         .string()
         .min(10)
         .required(),
-      tags: yup.array().notRequired(),
+      tags: yup.string().required()
     });
 
     if (!(await schema.isValid(req.body))) {
