@@ -13,6 +13,10 @@ module.exports = {
 
     const tools = await Tool.find().select('-__v');
 
+    if (tools.length === 0) {
+      return res.status(400).json({ message: 'No tools registered' });
+    }
+
     return res.json(tools);
   },
 

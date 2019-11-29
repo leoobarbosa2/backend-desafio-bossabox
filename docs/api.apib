@@ -1,0 +1,35 @@
+FORMAT: 1A
+HOST: https://toolstoremember.herokuapp.com/
+
+# Sample da API
+
+Descrição do Sample
+
+# Group API
+
+## Sobre [/]
+
+Descrever detalhes que são comuns a todos os serviços como formatos headers, tipos de erro, etc
+
+# Group Tools
+
+## Tools [/tools]
+
+### Criar ferramentas(tools) [POST]
+
++ Request Criar uma mensagem
+
+    + Headers 
+          Accept: application/json
+          Content-Type: application/json
+    + Attributes (Tools)
+
++ Response 200 (application/json)
+
+### Listar ferramentas(tools) [GET]
+
++ Response 200 (application/json)
+    + Attributes [array[Tools]]
+
++ Response 404 (application/json)
+    + Attributes (Message)
