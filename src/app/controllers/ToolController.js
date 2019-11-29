@@ -14,7 +14,7 @@ module.exports = {
     const tools = await Tool.find().select('-__v');
 
     if (tools.length === 0) {
-      return res.status(400).json({ message: 'No tools registered' });
+      return res.status(404).json({ message: 'No tools registered' });
     }
 
     return res.json(tools);
@@ -51,7 +51,15 @@ module.exports = {
   async delete(req, res) {
     const { id } = req.params;
 
-    await Tool.findByIdAndDelete(id);
+    const deleteTool = await Tool.findById(id);
+
+    if (!deleteTool) {
+      return res
+        .status(404)
+        .json({ error: 'Does not exists a tool with this ID' });
+    }
+
+    await Tool.findByIdAndDelete(deleteTool.id);
 
     return res.status(204).send();
   },
